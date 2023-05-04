@@ -9,10 +9,15 @@
     - invoke the function "swap"
 */
 
-function swap(x, y){
-    // Task 1: Add code here
+function swap(x, y) {
+  if (typeof x !== "number" || typeof y !== "number") {
+    console.log("-1");
+  } else {
+    [x, y] = [y, x];
+    console.log(x, y);
+  }
 }
 
-swap(x, y);
+swap(13, 2);
 
 module.exports = swap;
