@@ -13,6 +13,6 @@ function swap(x, y){
     // Task 1: Add code here
 }
 
-// Task 2: Add code here
+swap(x, y);
 
 module.exports = swap;
