@@ -1,4 +1,3 @@
-
 /*
     Task 1:
     - Link the file `external.js` to this file.
@@ -6,6 +5,6 @@
 */
 
 // Task 1: Add code here
-
+import print from "./external.js";
 // Do not change the code below
 document.querySelector("#test").innerHTML = print();
